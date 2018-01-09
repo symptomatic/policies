@@ -20,33 +20,36 @@ Symptomatic is committed to ensuring all workforce members actively address secu
 
 1. All new workforce members, including contractors, are given training on security policies and procedures, including operations security, within 30 days of employment.
    * Records of training are kept for all workforce members.
-   * Upon completion of training, workforce members complete this [form](https://docs.google.com/a/catalyze.io/forms/d/1bmEK3TidACj6ForBqGMaINPjIckv9ht28rtkGEQsBGs/viewform?usp=send_form).
-   * Current Symptomatic training is hosted at [training.Symptomatic.com](https://training.Symptomatic.com/).
+   * Upon completion of training, workforce members complete this [New Employee Checklist](https://docs.google.com/forms/d/e/1FAIpQLSdo3Os6RdfIrjz7B-PDWbku3Wjm3UsT8oGXloBuQJnCXjWfNA/viewform?usp=sf_link).
    * Employees must complete this training before accessing production systems containing ePHI.
 2. All workforce members are granted access to formal organizational policies, which include the sanction policy for security violations.
-3. The Symptomatic Employee Handbook clearly states the responsibilities and acceptable behavior regarding information system usage, including rules for email, Internet, mobile devices, and social media usage.
-   * Workforce members are required to sign an agreement stating that they have read and will abide by all terms outlined in the Symptomatic Employee Handbook, along with all policies and processes described in this document.
+3. The [Symptomatic Employee Handbook](https://docs.google.com/document/d/1clXxWZTd-FncxRwJLbtOOnvszBkphtoKnUutHdIRsKY/edit?usp=sharing) clearly states the responsibilities and acceptable behavior regarding information system usage, including rules for email, Internet, mobile devices, and social media usage.
+   * Workforce members are required to sign an [Employee Handbook Agreement](https://docs.google.com/document/d/1KP8HtB3Ni8ARCytWOuAsjhzbxgqYkSY0bhnZPu9TC90/edit?usp=sharing) stating that they have read and will abide by all terms outlined in the Symptomatic Employee Handbook, along with all policies and processes described in this document.
    * A Human Resources representative will provide the agreement to new employees during their onboarding process.
-4. Symptomatic does not allow mobile devices to connect to any of its production networks.
-5. All workforce members are educated about the approved set of tools to be installed on workstations.
-6. All new workforce members are given HIPAA training within 30 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for Symptomatic and its Customers and Partners.
+5. All new workforce members are given HIPAA training within 30 days of beginning employment. Training includes HIPAA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for Symptomatic and its Customers and Partners.
    * Current Symptomatic training is hosted at [training.Symptomatic.com](https://training.Symptomatic.com/).
-7. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
-8. All Symptomatic-purchased and -owned computers are to display this message at login and when the computer is unlocked: *This computer is owned by Symptomatic, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.Symptomatic.com) and have completed this training (https://training.Symptomatic.com). Please contact us if you have problems with this - privacy@Symptomatic.com*.
-9. Employees may only use Symptomatic-purchased and -owned workstations for accessing production systems with access to ePHI data.
-   * Any workstations used to access production systems must be configured as prescribed in [§7.8](#7.8-employee-workstation-use).
-   * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
-   * Symptomatic may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements ([§8](#8.-auditing-policy)).
-10. Access to internal Symptomatic systems can be requested using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification). All requests for access must be granted by the Symptomatic Security Officer.
-11. Request for modifications of access for any Symptomatic employee can be made using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification).
-12. Symptomatic employees are strictly forbidden from downloading any ePHI to their workstations.
+9. Access to internal Symptomatic systems can be requested using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification). All requests for access must be granted by the Symptomatic Security Officer.
+10. Request for modifications of access for any Symptomatic employee can be made using the procedures outlined in [§7.2](#7.2-access-establishment-and-modification).
+11. Symptomatic employees are strictly forbidden from downloading any ePHI to their workstations.
     * Restricting transfers of ePHI is enforced through technical controls as described in [§7.13](#7.13-access-to-ephi).
     * Employees found to be in violation of this policy will be subject to sanctions as described in [§5.3.3](#5.3-security-officer).
-13. Employees are required to cooperate with federal and state investigations.
+12. Employees are required to cooperate with federal and state investigations.
     * Employees must not interfere with investigations through willful misrepresentation, omission of facts, or by the use of threats against any person.
     * Employees found to be in violation of this policy will be subject to sanctions as described in [§5.3.3](#5.3-security-officer).
 
-## 19.3 Issue Escalation
+
+## 19.3 Telework Policy
+
+6. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
+4. All workforce members are educated about the approved set of tools to be installed on workstations.
+7. All Symptomatic purchased and owned computers are to display this message at login and when the computer is unlocked: *This computer is owned by Symptomatic, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.Symptomatic.com) and have completed this training (https://training.Symptomatic.com). Please contact us if you have problems with this - privacy@symptomatic.com*.
+8. Employees may only use Symptomatic-purchased and -owned workstations for accessing production systems with access to ePHI data.
+   * Any workstations used to access production systems must be configured as prescribed in [§7.8](#7.8-employee-workstation-use).
+   * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
+   * Symptomatic may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements ([§8](#8.-auditing-policy)).
+
+
+## 19.4 Issue Escalation
 
 Symptomatic workforce members are to escalate issues using the procedures outlined in the Employee Handbook. Issues that are brought to the Escalation Team are assigned an owner. The membership of the Escalation Team is maintained by the Chief Executive Officer.
 

@@ -7,7 +7,9 @@ Symptomatic utilizes a suite of approved software tools for internal use by work
 * [DropBox](https://www.dropbox.com/) DropBox is used for storage of files containing ePHI and sharing of those files with Partners and Customers.
 * [Google Apps](https://gsuite.google.com/) Google Apps is used for email and document collaboration.
 * [ZenDesk](https://www.zendesk.com/) A helpdesk software.
-* [Blossom](https://www.blossom.co/)  Project management software.  
+* [Blossom](https://www.blossom.co/) Project management software.  
+* [Gusto](https://gusto.com/) Online HR services.  
+* [Harvest](https://pentasyllabic.harvestapp.com/overview) Time tracking system.  
 
 ## 20.1 List of Approved Business Tools
 
