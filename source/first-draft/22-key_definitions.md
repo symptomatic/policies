@@ -1,5 +1,7 @@
 # 22. Key Definitions
 
+* *Advanced Directives*: Legal documents that provide end-of-life care instructions for patients.  Used to generate access control lists (ACLs) of who is authorized to make medical decisions, access medical records, receive organ donations, and similar concerns.
+
 * *Application*: An application hosted by Symptomatic, either maintained and created by Symptomatic, or maintained and created by a Customer or Partner.
 
 * *Application Level*: Controls and security associated with an Application. In the case of PaaS Customers, Symptomatic does not have access to and cannot assure compliance with security standards and policies at the Application Level.
@@ -18,6 +20,10 @@
 
 * *Backup Service*: A logging service for unifying system and application logs, encrypting them, and providing a dashboard for them. Offered with all Symptomatic Add-ons and as an option for PaaS Customers.
 
+* *BigchainDB*: An implementation of the IPDB protocol/toolkit (i.e. a smart-contractless blockchain built on MongoDB).  
+
+* *Blockchain*: A permanent public distributed ledger which requires cryptographic hashing to write to.  
+
 * *Breach*: Means the acquisition, access, use, or disclosure of protected health information (PHI) in a manner not permitted under the Privacy Rule which compromises the security or privacy of the PHI. For purpose of this definition, "compromises the security or privacy of the PHI" means poses a significant risk of financial, reputational, or other harm to the individual. A use or disclosure of PHI that does not include the identifiers listed at §164.514(e)(2), limited data set, date of birth, and zip code does not compromise the security or privacy of the PHI. Breach excludes:
 
   1. Any unintentional acquisition, access or use of PHI by a workforce member or person acting under the authority of a Covered Entity (CE) or Business Associate (BA) if such acquisition, access, or use was made in good faith and within the scope of authority and does not result in further use or disclosure in a manner not permitted under the Privacy Rule.
@@ -28,11 +34,15 @@
 
 * *Covered Entity*: A health plan, health care clearinghouse, or a healthcare provider who transmits any health information in electronic form.
 
+* *DApp*: aka Distributed App.  A peer-to-peer application that shares data between instances via mesh network, swarm file system, distributed ledger, blockchain, or similar technologies.
+
 * *De-identification*: The process of removing identifiable information so that data is rendered to not be PHI.
 
 * *Disaster Recovery*: The ability to recover a system and data after being made unavailable.
 
 * *Disaster Recovery Service*: A disaster recovery service for disaster recovery in the case of system unavailability. This includes both the technical and the non-technical (process) required to effectively stand up an application after an outage. Offered with all Symptomatic Add-ons and as an option for PaaS Customers.
+
+* *Distributed Ledger*: A ledger or spreadsheet that is kept in multiple locations for redundancy.  
 
 * *Disclosure*: Disclosure means the release, transfer, provision of, access to, or divulging in any other manner of information outside the entity holding the information.
 
@@ -51,6 +61,8 @@
 
 * *Health and Human Services (HHS)*: The government body that maintains HIPAA.
 
+* *Hyperledger*:  An umbrella project of open source blockchains and related tools, started in December 2015 by the Linux Foundation and supported by IBM.
+
 * *Individually Identifiable Health Information*: That information that is a subset of health information, including demographic information collected from an individual, and is created or received by a health care provider, health plan, employer, or health care clearinghouse; and relates to the past, present, or future physical or mental health or condition of an individual; the provision of health care to an individual; or the past, present, or future payment for the provision of health care to an individual; and identifies the individual; or with respect to which there is a reasonable basis to believe the information can be used to identify the individual.
 
 * *Indication*: A sign that an Incident may have occurred or may be occurring at the present time. Examples of indications include:
@@ -63,6 +75,10 @@
 
 * *Intrusion Detection System (IDS)*: A software tool use to automatically detect and notify in the event of possible unauthorized network and/or system access.
 
+* *Interplanetary File System (IPFS)*: A swarm file system, similar to BitTorrent.  
+
+* *Interplanetary Database (IPDB)*: A smart-contractless blockchain.  
+
 * *IDS Service*: An Intrusion Detection Service for providing IDS notification to customers in the case of suspicious activity. Offered with all Symptomatic Add-ons and as an option for PaaS Customers.
 
 * *Law Enforcement Official*: Any officer or employee of an agency or authority of the United States, a State, a territory, a political subdivision of a State or territory, or an Indian tribe, who is empowered by law to investigate or conduct an official inquiry into a potential violation of law; or prosecute or otherwise conduct a criminal, civil, or administrative proceeding arising from an alleged violation of law.
@@ -74,8 +90,6 @@
 * *Minimum Necessary Information*: Protected health information that is the minimum necessary to accomplish the intended purpose of the use, disclosure, or request. The "minimum necessary" standard applies to all protected health information in any form.
 
 * *Off-Site*: For the purpose of storage of Backup media, off-site is defined as any location separate from the building in which the backup was created. It must be physically separate from the creating site.
-
-* *Organization*: For the purposes of this policy, the term "organization" shall mean Symptomatic.
 
 * *Partner*: Contractual bound 3rd party vendor with integration with the Symptomatic Platform. May offer Add-on services.
 
@@ -131,6 +145,8 @@
     * Failure to protect passwords and/or access codes (e.g., posting passwords on equipment);
     * Installation of unauthorized software;
     * Terminated workforce member accessing applications, systems, or network.
+
+* *Smart Contract*: An implementation of a legal contract in a programming language such as javascript.  Common smart contracts include HIPAA Consent, Advanced Directives, and IRB Approvals/Waivers.  
 
 * *Threat*: The potential for a particular threat-source to successfully exercise a particular vulnerability. Threats are commonly categorized as:
   * Environmental - external fires, HVAC failure/temperature inadequacy, water pipe burst, power failure/fluctuation, etc.

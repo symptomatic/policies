@@ -27,7 +27,7 @@ The incident response process addresses:
 
 ## 11.2 Incident Management Policies
 
-The Symptomatic incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process which can be found in [this document](sections/incident-flowchart.pdf).
+The Symptomatic incident response process follows the process recommended by [SANS](https://www.sans.org), an industry leader in security. Process flows are a direct representation of the SANS process which can be found in [this document](sections/incident-flowchart.pdf.
 
 Symptomatic's incident response classifies security-related events into the following categories:
 
