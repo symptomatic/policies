@@ -9,7 +9,7 @@ Despite not being a requirement within HIPAA, Symptomatic understand and appreci
 ## 18.2 Data Retention Policy
 
 * Current Symptomatic Customers have data stored by Symptomatic as a part of the Symptomatic Service.
-* Once a Customer ceases to be a Customer, as defined below, the following steps are
+* Once a Customer ceases to be a Customer, as defined below, the following steps are taken:  
   1. Customer is sent a notice via email of change of standing, and given the option to reinstate account.
   2. If no response to notice in #1 above within 7 days, or if Customer responds they do not want to reinstate account, Customer is sent directions for how to download their data from Symptomatic and/or to have Symptomatic continue to store the data at a rate of $25/month for up to 100GB. If there is more than 100GB of data, Symptomatic will work with Customer to determine storage costs.
   3. If Customer downloads data or does not respond to notices from Symptomatic within 30 days, Symptomatic removed data from Symptomatic systems and Customer is sent notice of removal of data.

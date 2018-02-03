@@ -32,7 +32,6 @@ To start with the Clinical Meteor Software Development Kit, we're going to need 
 * [Visual Studio - Community 2017](https://www.visualstudio.com/downloads/) - C++ compilers needed for some Node libraries.    
 
 **Chrome Environment**    
-
 Clinical Meteor prefers a Chrome environment.  So much so, that its arguably an alternative Chrome OS.  Not only will we be targeting Chrome as our preferred browser; we'll also be installing utilities as Chrome extensions; using a code editor built on Chrome, and using Chrome in our QA test runner.  Clinical Meteor supports other browsers (particularly Firefox and Safari), but the bulk of it's work is done with Chrome.  Once you get Chrome installed, we recommend the following extensions; which will help develop Clinical Meteor apps.  
 
 * [Chrome](https://www.google.com/chrome/browser/desktop/) - Prefered web browser.  
@@ -40,6 +39,16 @@ Clinical Meteor prefers a Chrome environment.  So much so, that its arguably an 
 * [MeteorDevTools](https://chrome.google.com/webstore/detail/meteor-devtools/ippapidnnboiophakmmhkdlchoccbgje) - Blaze, DDP, and Minimongo debugging utilities.
 
 **Database Management**    
-
 * [MongoDB](ww.mongodb.com) - JSON database for big data applications.
-* [Robomongo](http://robomongo.org/) - A sweet, sweet database management tool for MongoDB.
+* [Robomongo](http://robomongo.org/) - A sweet, sweet database management tool for MongoDB.  
+
+**Communications**  
+* [Signal]()  
+* [VPN Software]()  
+
+
+
+
+
+
+

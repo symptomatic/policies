@@ -1,6 +1,6 @@
 # 4. Risk Management Policy
 
-This policy establishes the scope, objectives, and procedures of Symptomatic's information security risk management process. The risk management process is intended to support and protect the organization and its ability to fulfill its mission.
+This policy establishes the scope, objectives, and procedures of Symptomatic's risk management process. The risk management process is intended to support and protect the organization and its ability to fulfill its mission.
 
 ## 4.1 Applicable Standards
 
@@ -18,7 +18,7 @@ This policy establishes the scope, objectives, and procedures of Symptomatic's i
 
 ## 4.2 Risk Management Policies
 
-1. It is the policy of Symptomatic to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of the Symptomatic's information security program.
+1. It is the policy of Symptomatic to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process.
 2. Risk analysis and risk management are recognized as important components of Symptomatic's corporate compliance program and information security program in accordance with the Risk Analysis and Risk Management implementation specifications within the Security Management standard and the evaluation standards set forth in the HIPAA Security Rule, 45 CFR 164.308(a)(1)(ii)(A), 164.308(a)(1)(ii)(B), 164.308(a)(1)(i), and 164.308(a)(8).
    1. Risk assessments are done throughout product life cycles:
    2. Before the integration of new system technologies and before changes are made to Symptomatic physical safeguards; and
@@ -35,12 +35,12 @@ This policy establishes the scope, objectives, and procedures of Symptomatic's i
 6. The implementation, execution, and maintenance of the information security risk analysis and risk management process is the responsibility of Symptomatic's Security Officer (or other designated employee), and the identified Risk Management Team.
 7. All risk management efforts, including decisions made on what controls to put in place as well as those to not put into place, are documented and the documentation is maintained for six years.
 8. The details of the Risk Management Process, including risk assessment, discovery, and mitigation, are outlined in detail below. The process is tracked, measured, and monitored using the following procedures:
-  1. The Security Officer or the Privacy Officer initiates the Risk Management Procedures by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
+  1. The Security Officer or the Privacy Officer initiates the Risk Management Procedures by filling out the Risk Assessment Evaluation Form.
   2. The Security Officer or the Privacy Officer is assigned to carry out the Risk Management Procedures.
-  3. All findings are documented in approved spreadsheet that is linked to the Issue.
+  3. All findings are documented in approved  Risk Assessment Spreadsheet.
   4. Once the Risk Management Procedures are complete, along with corresponding documentation, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
-9. The Risk Management Procedure is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
+  5. If the review is approved, the Security Officer then marks the Status as Done, adding any pertinent notes required.
+9. The Risk Management Procedure is monitored on a quarterly basis, as part of the scheduled Quarterly Risk Management Review Meeting.
 
 ## 4.3 Risk Management Procedures
 
