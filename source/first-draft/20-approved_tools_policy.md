@@ -43,8 +43,15 @@ Clinical Meteor prefers a Chrome environment.  So much so, that its arguably an 
 * [Robomongo](http://robomongo.org/) - A sweet, sweet database management tool for MongoDB.  
 
 **Communications**  
-* [Signal]()  
+* [Signal](https://signal.org/download/) - Secure phone calls and SMS messaging.       
 * [VPN Software]()  
+
+**Security**  
+* [Norton Security for Mac](https://uk.norton.com/)  - Approved virus scanner.  Kapersky and McAfee are not approved.
+* [Norton WiFi Privacy](https://uk.norton.com/wifi-privacy) - WiFi protection.  
+
+**Accounting**  
+* [Harvest](https://www.getharvest.com/)  
 
 
 

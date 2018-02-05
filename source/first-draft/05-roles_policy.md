@@ -1,6 +1,6 @@
 # 5. Roles Policy
 
-Symptomatic has a Security Officer [164.308(a)(2)] and Privacy Officer [164.308(a)(2)] appointed to assist in maintaining and enforcing safeguards towards compliance. The responsibilities associated with these roles are outlined below.
+Symptomatic has a Security Officer [164.308(a)(2)] and Privacy Officer [164.308(a)(2)] appointed to assist in maintaining and enforcing safeguards towards compliance. The responsibilities associated with these roles are outlined below.  These positions are appointed by and report to the Board of Directors and the CEO.
 
 ## 5.1 Applicable Standards
 
@@ -20,12 +20,12 @@ Symptomatic has a Security Officer [164.308(a)(2)] and Privacy Officer [164.308(
 
 The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in his responsibilities.
 
-1. Provides annual training to all workforce members of established policies and procedures as necessary and appropriate to carry out their job functions, and documents the training provided.
-2. Assists in the administration and oversight of business associate agreements.
+1. Provides annual training to all workforce members of established policies and procedures as necessary and appropriate to carry out their job functions, and documents the training provided in the [New Employee Orientation](https://docs.google.com/spreadsheets/u/1/d/1aPb7Q2wt6lToQM9ucAGMKY_YJnXA2FnezMZKnP5j6y4/edit?usp=drive_web&ouid=102354279930404006476) spreadsheet.
+2. Assists in the administration and oversight of [business associate agreements](https://drive.google.com/drive/u/1/folders/1DJ5be3ip4phBpoLO0y7JIylDmvmnnNpd).
 3. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
 4. Assist Security Officer as needed.
 
-The current Symptomatic Privacy Officer is Travis Good ([travis@Symptomatic.com](mailto:travis@Symptomatic.com)).
+The current Symptomatic Privacy Officer is Abigail Watson ([abigail@symptomatic.com](mailto:abigail@Symptomatic.com)).
 
 ### 5.2.1 Workforce Training Responsibilities
 
@@ -34,41 +34,38 @@ The current Symptomatic Privacy Officer is Travis Good ([travis@Symptomatic.com]
    2. Existing workforce members annually;
    3. Existing workforce members whose functions are affected by a material change in the policies and procedures, within a month after the material change becomes effective;
    4. Existing workforce members as needed due to changes in security and risk posture of Symptomatic.
-2. The Security Officer or designee maintains documentation of the training session materials and attendees for a minimum of six years.
+2. The Security Officer or designee maintains documentation of the training session materials and attendees for a minimum of six years via the [New Employee Checklist](https://docs.google.com/forms/u/1/d/19OLPLeaRHKgz6ihL9xxEE9LVIjzL2S8sE8CcnD-sZmY/edit?usp=drive_web) and [New Employee Orientation](https://docs.google.com/spreadsheets/u/1/d/1aPb7Q2wt6lToQM9ucAGMKY_YJnXA2FnezMZKnP5j6y4/edit?usp=forms_web_b#gid=102281773) spreadsheet.  
 3. The training session focuses on, but is not limited to, the following subjects defined in Symptomatic's security policies and procedures:
    1. HIPAA Privacy, Security, and Breach notification rules;
    2. HITRUST Common Security Framework;
    3. NIST Security Rules;
    4. Risk Management procedures and documentation;
-   5. Auditing. Symptomatic may monitor access and activities of all users;
-   6. Workstations may only be used to perform assigned job responsibilities;
-   7. Users may not download software onto Symptomatic's workstations and/or systems without prior approval from the Security Officer;
-   8. Users are required to report malicious software to the Security Officer immediately;
-   9. Users are required to report unauthorized attempts, uses of, and theft of Symptomatic's systems and/or workstations;
-   10. Users are required to report unauthorized access to facilities
-   11. Users are required to report noted log-in discrepancies (i.e. application states users last log-in was on a date user was on vacation);
-   12. Users may not alter ePHI maintained in a database, unless authorized to do so by a Symptomatic Customer;
-   13. Users are required to understand their role in Symptomatic's contingency plan;
-   14. Users may not share their user names nor passwords with anyone;
-   15. Requirements for users to create and change passwords;
-   16. Users must set all applications that contain or transmit ePHI to automatically log off after 15 minutes of inactivity;
-   17. Supervisors are required to report terminations of workforce members and other outside users;
-   18. Supervisors are required to report a change in a users title, role, department, and/or location;
-   19. Procedures to backup ePHI;
-   20. Procedures to move and record movement of hardware and electronic media containing ePHI;
-   21. Procedures to dispose of discs, CDs, hard drives, and other media containing ePHI;
-   22. Procedures to re-use electronic media containing ePHI;
-   23. SSH key and sensitive document encryption procedures.
+   5. Workstation Auditing. Symptomatic may monitor access and activities of all users.
+   6. Workstations and laptops must have FileVault configured.
+   7. Users must run Norton Security for Mac.  Kapersky and McAfee are not allowed.  Users are required to report malicious software to the Security Officer immediately;
+   8. Users are required to report unauthorized attempts, uses of, and theft of Symptomatic's systems and/or workstations;
+   9. Users are required to report unauthorized access to facilities
+   10. Users are required to report noted log-in discrepancies (i.e. application states users last log-in was on a date user was on vacation);
+   11. Users may not alter ePHI maintained in a database, unless authorized to do so by a Symptomatic Customer;
+   12. Users are required to understand their role in Symptomatic's contingency plan;
+   13. Users may not share their user names nor passwords with anyone;
+   14. Users must set all applications that contain or transmit ePHI to automatically log off after 15 minutes of inactivity;
+   16. Supervisors are required to report terminations of workforce members and other outside users;
+   17. Supervisors are required to report a change in a users title, role, department, and/or location;
+   18. Procedures to backup ePHI;
+   19. Procedures to move and record movement of hardware and electronic media containing ePHI;
+   20. Procedures to dispose of discs, CDs, hard drives, and other media containing ePHI;
+   22. SSH key and sensitive document encryption procedures.
 
 ## 5.3 Security Officer
 
 The Security Officer is responsible for facilitating the training and supervision of all workforce members [164.308(a)(3)(ii)(A) and 164.308(a)(5)(ii)(A)], investigation and sanctioning of any workforce member that is in violation of Symptomatic security policies and non-compliance with the security regulations [164.308(a)(1)(ii)&lpar;c&rpar;], and writing, implementing, and maintaining all polices, procedures, and documentation related to efforts toward security and compliance [164.316(a-b)].
 
-The current Symptomatic Security Officer is Adam Leko ([adam@Symptomatic.com](mailto:adam@Symptomatic.com)).
+The current Symptomatic Security Officer is Abigail Watson ([abigail@symptomatic.com](mailto:abigail@Symptomatic.com)).
 
 ### 5.3.1 Organizational Responsibilities
 
-The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, testing, implementation, training, and oversight of all activities pertaining to Symptomatic's efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks. The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI. The Security Officer is appointed by and reports to the Board of Directors and the CEO.
+The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, testing, implementation, training, and oversight of all activities pertaining to Symptomatic's efforts to be compliant with the HIPAA Security Regulations, HITRUST CSF, and any other security and compliance frameworks. The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI. 
 
 These organizational responsibilities include, but are not limited to the following:
 
@@ -76,7 +73,7 @@ These organizational responsibilities include, but are not limited to the follow
 2. Helps to establish and maintain written policies and procedures to comply with the Security rule and maintains them for six years from the date of creation or date it was last in effect, whichever is later.
 3. Reviews and updates policies and procedures as necessary and appropriate to maintain compliance and maintains changes made for six years from the date of creation or date it was last in effect, whichever is later.
 4. Facilitates audits to validate compliance efforts throughout the organization.
-5. Documents all activities and assessments completed to maintain compliance and maintains documentation for six years from the date of creation or date it was last in effect, whichever is later.
+5. Documents all activities, audits, and assessments in the [Compliance Reviews Activities Log](https://docs.google.com/spreadsheets/d/1Hcy45pCmEExXnlODVpFOqh9Dv1FXkiGguYGn9BuQxjA/edit?usp=drive_web&ouid=102354279930404006476) and maintains documentation for six years from the date of creation or date it was last in effect, whichever is later.
 6. Provides copies of the policies and procedures to management, customers, and partners, and has them available to review by all other workforce members to which they apply.
 7. Annually, and as necessary, reviews and updates documentation to respond to environmental or operational changes affecting the security and risk posture of ePHI stored, transmitted, or processed within Symptomatic infrastructure.
 8. Develops and provides periodic security updates and reminder communications for all workforce members.

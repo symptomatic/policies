@@ -20,3 +20,10 @@
   3. Once the HITRUST activity is completed, the Security Officer approves or rejects the Issue.
   5. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
   6. Compliance with annual compliance assessments, utilizing the HITRUST CSF as a framework, is monitored on a quarterly basis using JIRA reporting to assess compliance with above policy.
+
+
+## 19.3 Telework Policy
+4. Employees may only use Symptomatic-purchased and -owned workstations for accessing production systems with access to ePHI data.
+   * Any workstations used to access production systems must be configured as prescribed in [§7.8](#7.8-employee-workstation-use).
+   * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
+   * Symptomatic may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements ([§8](#8.-auditing-policy)).
