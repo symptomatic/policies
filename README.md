@@ -66,3 +66,14 @@ Each policy is included as its own markdown file in case you want to cherry-pick
 * [Key Definitions](source/sections/22-key_definitions.md)
 * [Symptomatic HIPAA Business Associate Agreement (“BAA”)](source/sections/23-Symptomatic_hipaa_business_associate_agreement.md)
 * [HIPAA Mappings to Symptomatic Controls](source/sections/24-hipaa_mapping_to_Symptomatic_controls.md)
+
+
+## References  
+Additional references for HITECH and HIPAA compliance from our hosting providers.  
+
+[Galaxy - Security & Systems Policy](https://galaxy-guide.meteor.com/security.html)  
+[AWS - HITRUST Certification](https://aws.amazon.com/blogs/security/64-aws-services-achieve-hitrust-certification)
+[AWS - NIST Compliance](https://aws.amazon.com/compliance/nist)
+[AWS - Artifact](https://aws.amazon.com/artifact)
+[Mongo Atlas - HIPAA Compliance](https://www.mongodb.com/cloud/trust/compliance/hipaa)  
+[Mongo Atlas - Trust](https://www.mongodb.com/cloud/trust)  
