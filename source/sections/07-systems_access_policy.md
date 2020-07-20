@@ -31,19 +31,19 @@ Access to Symptomatic systems and application is limited for all users, includin
 * 164.310c Workstation Security
 * 164.308a3iiC Termination Procedures
 
-## 7.2 Access Establishment and Modification
+## 7.2 Access Enrollment and Changes
 
-1. Requests for access to Symptomatic Platform systems and applications is made formally using the following process:
-  1. The Symptomatic workforce member, or their manager, initiates the access request by creating an Issue in the JIRA Compliance Review Activity (CRA) Project.
+1. Requests for access to Symptomatic,LLC systems and applications is made formally using the following process:
+  1. The Symptomatic workforce member, or their manager, initiates the access request by emailing the Security Officer (security@symptomatic.io).
      * User identities must be verified prior to granting access to new accounts.
      * Identity verification must be done in person where possible; for remote employees, identities must be verified over the phone.
      * For new accounts, the method used to verify the user's identity must be recorded on the Issue.
   2. The Security Officer will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
   3. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
-  4. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required. The Security Officer then grants requested access.
+  4. If the review is approved, the Security Officer then grants requested access.
      * New accounts will be created with a temporary secure password that meets all requirements from [§7.12](#7.12-password-management), which must be changed on the initial login.
      * All password exchanges must occur over an authenticated channel.
-     * For production systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP group.
+     * For production systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP group (available in Google Suite Admin).
      * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to a Symptomatic employee at the discretion of the Security Officer.
 2. Access is not granted until receipt, review, and approval by the Symptomatic Security Officer;
 3. The request for access is retained for future reference.
@@ -72,101 +72,85 @@ Access to Symptomatic systems and application is limited for all users, includin
 13. In cases of increased risk or known attempted unauthorized access, immediate steps are taken by the Security and Privacy Officer to limit access and reduce risk of unauthorized access.
 14. Direct system to system, system to application, and application to application authentication and authorization are limited and controlled to restrict access.
 
-## 7.3 Workforce Clearance
+## 7.3 Security Clearances
 
 1. The level of security assigned to a user to the organization's information systems is based on the minimum necessary amount of data access required to carry out legitimate job responsibilities assigned to a user's job classification and/or to a user needing access to carry out treatment, payment, or healthcare operations.
 2. All access requests are treated on a "least-access principle."
-3. Symptomatic maintains a minimum necessary approach to access to Customer data. As such, Symptomatic, including all workforce members, does not readily have access to any ePHI.
+3. Symptomatic maintains a minimum necessary approach to access to Customer data. As such, Symptomatic LLC, including all workforce members, does not readily have access to any ePHI.
 
 ## 7.4 Access Authorization
 
-1. Role based access categories for each Symptomatic system and application are pre-approved by the Security Officer or VP of Engineering.
+1. Role based access categories for each Symptomatic system and application are pre-approved by the Security Officer.
 2. Symptomatic utilizes hardware and software firewalls to segment data, prevent unauthorized access, and monitor traffic for denial of service attacks.
+3. Symptomatic distinguishes the follwing types of access:   system, network, business administration, financial, and clinical access.
 
 ## 7.5 Person or Entity Authentication
 
-1. Each workforce member has and uses a unique user ID and password that identifies him/her as the user of the information system.
-2. Each Customer and Partner has and uses a unique user ID and password that identifies him/her as the user of the information system.
-3. All Customer support desk interactions must be verified before Symptomatic support personnel will satisfy any request having information security implications.
+1. Each workforce member has a unique google email and password that identifies them as the user of the information system.
+2. Each Patient or Clinician has a unique Meteor userId and password that identifies them as the user of the information system.
+3. Each Client, Agent, or Business Partner has a unique Quicken ID that identifies them as an invoiceable entity.  
+4. All Customer support desk interactions must be verified before Symptomatic support personnel will satisfy any request having information security implications.
    * Symptomatic's current support desk software, Zendesk, requires users to authenticate before submitting support tickets.
    * Support issues submitted via Symptomatic's dashboard require that users authenticate with their Symptomatic account before submitting support tickets.
    * Support issues submitted by email must be verified by Symptomatic personnel using a phone number that has been registered with the corresponding account.
 
 ## 7.6 Unique User Identification
 
-1. Access to the Symptomatic Platform systems and applications is controlled by requiring unique User Login IDs and passwords for each individual user and developer.
+1. Access to the Symptomatic systems and applications is controlled by requiring unique User Login IDs and passwords for each individual user and developer.
 2. Passwords requirements mandate strong password controls (see below).
 3. Passwords are not displayed at any time and are not transmitted or stored in plain text.
 4. Default accounts on all production systems, including root, are disabled.
 5. Shared accounts are not allowed within Symptomatic systems or networks.
-6. Automated log-on configurations that store user passwords or bypass password entry are not permitted for use with Symptomatic workstations or production systems.
 
-## 7.7 Automatic Logoff
 
-1. Users are required to make information systems inaccessible by any other individual when unattended by the users (ex. by using a password protected screen saver or logging off the system).
-2. Information systems automatically log users off the systems after 15 minutes of inactivity.
-3. The Security Officer pre-approves exceptions to automatic log off requirements.
+## 7.7 Employee Workstation Use
 
-## 7.8 Employee Workstation Use
-
-All workstations at Symptomatic are company owned, and all are laptop Apple products running Mac OSX or Linux.
+All workstations at Symptomatic are company owned, and are either Apple products running Mac OSX or iOS or Microsoft Surface devices.
 
 1. Workstations may not be used to engage in any activity that is illegal or is in violation of organization's policies.
-2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization's system.
-3. Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization's best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
-4. Solicitation of non-company business, or any use of organization's information systems/applications for personal gain is prohibited.
-5. Transmitted messages may not contain material that criticizes the organization, its providers, its employees, or others.
-6. Users may not misrepresent, obscure, suppress, or replace another user's identity in transmitted or stored messages.
-7. Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.
-8. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
-9. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Symptomatic, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.Symptomatic.com) and have completed this training (https://training.Symptomatic.com/). Please contact us if you have problems with this - privacy@Symptomatic.com.*
+2. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are considered "X-rated" or pornographic in nature.
+3. Workstations and tablets may not be used for online gambling.
+4. Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization's system.
+5. Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization's best interests. 
+6. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
+7. Solicitation of non-company business, or any use of organization's information systems/applications for personal gain is prohibited.
+8. Transmitted messages may not contain material that criticizes the organization, its providers, its employees, or others.
+9. Users may not misrepresent, obscure, suppress, or replace another user's identity in transmitted or stored messages.
+10. Workstation hard drives will be encrypted using FileVault 2.0 or equivalent.
+11. All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
+12. All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by Symptomatic, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://policy.symptomatic.io) and have completed this training (https://training.symptomatic.io/). Please contact us if you have problems with this - privacy@symptomatic.io.*  
 
-## 7.9 Wireless Access Use
+## 7.8 Employee Termination Procedures
 
-1. Symptomatic production systems are not accessible directly over wireless channels.
-2. Wireless access is disabled on all production systems.
-3. When accessing production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
-4. Wireless networks managed within Symptomatic non-production facilities (offices, etc.) are secured with the following configurations:
-   * All data in transit over wireless is encrypted using WPA2 encryption;
-   * Passwords are rotated on a regular basis, presently quarterly. This process is managed by the Symptomatic Security Officer.
-
-## 7.10 Employee Termination Procedures
-
-1. The HStrategic Growth Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the "Termination Checklist".
+1. The Strategic Growth Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of employee access and facilitating completion of the "Termination Checklist".
 2. The Strategic Growth Department, users, and supervisors are required to notify the Security Officer to terminate a user's access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
    * The user has been using their access rights inappropriately;
    * A user's password has been compromised (a new password may be provided to the user if the user is not identified as the individual compromising the original password);
    * An unauthorized individual is utilizing a user's User Login ID and password (a new password may be provided to the user if the user is not identified as providing the unauthorized individual with the User Login ID and password).
 3. The Security Officer will terminate users' access rights immediately upon notification, and will coordinate with the appropriate Symptomatic employees to terminate access to any non-production systems managed by those employees.
 4. The Security Officer audits and may terminate access of users that have not logged into organization's information systems/applications for an extended period of time.
+5. A termination letter will be sent to the employee thanking them for their help, their current and outstanding debts to the companee, and direction to temporary placement services as appropriate.   
 
-## 7.11 Paper Records
+## 7.9 Paper Records
 
 Symptomatic does not use paper records for any sensitive information. Use of paper for recording and storing sensitive data is against Symptomatic policies.
 
-## 7.12 Password Management
+## 7.10 Password Management
 
 1. User IDs and passwords are used to control access to Symptomatic systems and may not be disclosed to anyone for any reason.
 2. Users may not allow anyone, for any reason, to have access to any information system using another user's unique user ID and password.
-3. On all production systems and applications in the Symptomatic environment, password configurations are set to require:
-   * a minimum length of 8 characters;
-   * a mix of upper case characters, lower case characters, and numbers or special characters;
-   * a 90-day password expiration, or 60-day password expiration for administrative accounts;
-   * prevention of password reuse using a history of the last 6 passwords;
-   * where supported, modifying at least 4 characters when changing passwords;
-   * account lockout after 5 invalid attempts.
 4. All system and application passwords must be stored and transmitted securely.
    * Where possible, passwords should be stored in a hashed format using a salted cryptographic hash function (SHA-256 or equivalent).
    * Passwords that must be stored in non-hashed format must be encrypted at rest pursuant to the requirements in [§17.8](#17.8-production-data-security).
    * Transmitted passwords must be encrypted in flight pursuant to the requirements in [§17.9](#17.9-transmission-security).
-5. Each information system automatically requires users to change passwords at a pre-determined interval as determined by the organization, based on the criticality and sensitivity of the ePHI contained within the network, system, application, and/or database.
 6. Passwords are inactivated immediately upon an employee's termination (refer to the [Employee Termination Procedures in §7.10](#7.10-employee-termination-procedures)).
-7. All default system, application, and Partner passwords are changed before deployment to production.
+7. All default system, application, and account passwords are changed before deployment to production.  Custom settings file are created to override Node on FHIR biolerplate defaults.
 8. Upon initial login, users must change any passwords that were automatically generated for them.
 9. Password change methods must use a confirmation method to correct for user input errors.
 10. All passwords used in configuration scripts are secured and encrypted.
 11. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 12. In cases where a user has forgotten their password, the following procedure is used to reset the password.
+
     * The user submits a password reset request to password-reset@Symptomatic.com. The request should include the system to which the user has lost access and needs the password reset.
     * An administrator with password reset privileges is notified and connects directly with the user requesting the password reset.
     * The administrator verifies the identity of the user either in-person or through a separate communication channel such as phone or Slack.
@@ -174,9 +158,14 @@ Symptomatic does not use paper records for any sensitive information. Use of pap
 
 The password-reset email inbox is used to track and store password reset requests. The Security Officer is the owner of this group and modifies membership as needed.
 
-## 7.13 Access to ePHI
+## 7.13 Access to ePHI Warehouse / Datalake
 
 1. Employees may not download ePHI to any workstations used to connect to production systems.
+2. Patients may download their own ePHI to a workstations or tablet of their choice under the 21st Centure Cures act. 
+3. Clinicians may download a patient's ePHI to a workstations or tablet of their choice under the HIPAA, under the following conditions:
+- an audit log of the event is kept
+- they are providing care to the patient whise ePHI they are accessing.
+- their state credentials are up to date
 2. Disallowing transfer of ePHI to workstations is enforced through technical measures.
    * All production access to systems is performed through a bastion/jump host accessed through a VPN. Direct access to production systems is disallowed by Symptomatic's VPN configuration.
    * On production Linux bastions, all file transfer services are disabled including file-transfer functionality of SSH services (SCP/SFTP).
