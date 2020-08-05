@@ -71,9 +71,9 @@ Each policy is included as its own markdown file in case you want to cherry-pick
 ## References  
 Additional references for HITECH and HIPAA compliance from our hosting providers.  
 
-[Galaxy - Security & Systems Policy](https://galaxy-guide.meteor.com/security.html)  
-[AWS - HITRUST Certification](https://aws.amazon.com/blogs/security/64-aws-services-achieve-hitrust-certification)
-[AWS - NIST Compliance](https://aws.amazon.com/compliance/nist)
-[AWS - Artifact](https://aws.amazon.com/artifact)
-[Mongo Atlas - HIPAA Compliance](https://www.mongodb.com/cloud/trust/compliance/hipaa)  
-[Mongo Atlas - Trust](https://www.mongodb.com/cloud/trust)  
+[Galaxy - Security & Systems Policy](https://galaxy-guide.meteor.com/security.html)    
+[AWS - HITRUST Certification](https://aws.amazon.com/blogs/security/64-aws-services-achieve-hitrust-certification)  
+[AWS - NIST Compliance](https://aws.amazon.com/compliance/nist)  
+[AWS - Artifact](https://aws.amazon.com/artifact)  
+[Mongo Atlas - HIPAA Compliance](https://www.mongodb.com/cloud/trust/compliance/hipaa)    
+[Mongo Atlas - Trust](https://www.mongodb.com/cloud/trust)    
