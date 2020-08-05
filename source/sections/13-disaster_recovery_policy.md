@@ -5,9 +5,11 @@ The Symptomatic Contingency Plan establishes procedures to recover Symptomatic f
 The following objectives have been established for this plan:
 
 1. Maximize the effectiveness of contingency operations through an established plan that consists of the following phases:
-   * *Notification/Activation phase* to detect and assess damage and to activate the plan;
-   * *Recovery phase* to restore temporary IT operations and recover damage done to the original system;
+
+   * *Notification/Activation phase* to detect and assess damage and to activate the plan.  
+   * *Recovery phase* to restore temporary IT operations and recover damage done to the original systems.
    * *Reconstitution phase* to restore IT system processing capabilities to normal operations.
+   
 2. Identify the activities, resources, and procedures needed to carry out Symptomatic processing requirements during prolonged interruptions to normal operations.
 3. Identify and define the impact of interruptions to Symptomatic systems.
 4. Assign responsibilities to designated personnel and provide guidance for recovering Symptomatic during prolonged periods of interruption to normal operations.
@@ -32,7 +34,8 @@ Example of the types of disasters that would initiate this plan are natural disa
 
 Symptomatic defined two categories of systems from a disaster recovery perspective.
 
-1. *Critical Systems*. These systems host application servers and database servers or are required for functioning of systems that host application servers and database servers. These systems, if unavailable, affect the integrity of data and must be restored, or have a process begun to restore them, immediately upon becoming unavailable.
+1. *Critical Systems*. These systems include application servers, data warehouses, and routing networks, data pipelines, and microservices. These systems, if unavailable, affect the integrity of data and must be restored, or have a process begun to restore them, immediately upon becoming unavailable.
+
 2. *Non-critical Systems*. These are all systems not considered critical by definition above. These systems, while they may affect the performance and overall security of critical systems, do not prevent Critical systems from functioning and being accessed appropriately. These systems are restored at a lower priority than critical systems.
 
 ## 13.1 Applicable Standards
@@ -49,15 +52,14 @@ Symptomatic defined two categories of systems from a disaster recovery perspecti
 
 The following order of succession to ensure that decision-making authority for the Symptomatic Contingency Plan is uninterrupted. The Chief Technology Officer (CTO) is responsible for ensuring the safety of personnel and the execution of procedures documented within this Symptomatic Contingency Plan. If the CTO is unable to function as the overall authority or chooses to delegate this responsibility to a successor, the CEO or COO shall function as that authority. To provide contact initiation should the contingency plan need to be initiated, please use the contact list below.
 
-* Adam Leko, CTO: 608-628-2582, adam@Symptomatic.com
-* Travis Good, CEO: 303-351-2640, travis@Symptomatic.com
-* Brian Lindstrom, COO: 608-577-7003, blindstrom@Symptomatic.com
+* Abigail Watson, CEO: 347-302-9345, abigail@symptomatic.io
 
 ## 13.3 Responsibilities
 
 The following teams have been developed and trained to respond to a contingency event affecting the IT system.
 
 1. The **Ops Team** is responsible for recovery of the Symptomatic hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of Symptomatic. The team leader is the CTO and directs the Dev Ops Team.
+
 2. The **Web Services Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the CTO and directs the Web Services Team.
 
 Members of the Ops and Web Services teams must maintain local copies of the contact information from [§13.2](#13.2-line-of-succession). Additionally, the CTO must maintain a local copy of this policy in the event Internet access is not available during a disaster scenario.
@@ -84,10 +86,10 @@ The primary objective of the technical test is to ensure the communication proce
 
 ### 13.5.1 Notification and Activation Phase
 
-This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to Symptomatic. Based on the assessment of the Event, sometimes according to the Symptomatic Incident Response Policy, the Contingency Plan may be activated by either the CTO.
+This phase addresses the initial actions taken to detect and assess damage inflicted by a disruption to Symptomatic. Based on the assessment of the Event, sometimes according to the Symptomatic Incident Response Policy, the Contingency Plan may be activated by either the CTO or another managing director.  The notification sequence is listed below:
 
-The notification sequence is listed below:
-
+* This phase may be initiated by a precipitating event, including but not limited to a declaration of National Emergency, receipt of warrant or subpeana from a state or feral law enforcement agency, activation of an insurance policy, or an act of Nature or God.  
+* Any managing director of Symptomatic has the authority to initate the Notification/Activation phase.  
 * The first responder is to notify the CTO. All known information must be relayed to the CTO.
 * The CTO is to contact the Web Services Team and inform them of the event. The CTO is to to begin assessment procedures.
 * The CTO is to notify team members and direct them to complete the assessment procedures outlined below to determine the extent of damage and estimated recovery time. If damage assessment cannot be performed locally because of unsafe conditions, the CTO is to following the steps below.
@@ -104,7 +106,10 @@ The notification sequence is listed below:
   * The CTO is to notify the hosting facility partners that a contingency event has been declared and to ship the necessary materials (as determined by damage assessment) to the alternate site.
   * The CTO is to notify remaining personnel and executive leadership on the general status of the incident.
   * Notification can be message, email, or phone.
+  
 
+
+  
 ### 13.5.2 Recovery Phase
 
 This section provides procedures for recovering the application at an alternate site, whereas other efforts are directed to repair damage to the original system and capabilities.
@@ -115,25 +120,36 @@ Recovery Goal: The goal is to rebuild Symptomatic infrastructure to a production
 
 The tasks outlines below are not sequential and some can be run in parallel.
 
-1. Contact Partners and Customers affected - Web Services
-2. Assess damage to the environment - Web Services
-3. Begin replication of new environment using automated and tested scripts, currently Chef and Salt. At this point it is determined whether to recover in Rackspace, AWS, Azure, or SoftLayer. - Dev Ops
-4. Test new environment using pre-written tests - Web Services
-5. Test logging, security, and alerting functionality - Dev Ops
-6. Assure systems are appropriately patched and up to date. - Dev Ops
-7. Deploy environment to production - Web Services
-8. Update DNS to new environment. - Dev Ops
+1. Secure safety of personnel.
+2. Secure safety of immediate premises.
+3. Contact emergency services, as needed.
+4. Contact Partners and Customers affected - Web Services
+5. Assess damage to the environment - Web Services
+6. Begin replication of new environment using automated and tested scripts, currently Chef and Salt. At this point it is determined whether to recover in AWS, Azure, Galaxy, or Aptible. - Dev Ops
+7.  Back up and export database from failing systems, of possible.
+8.  Secure other assets, financials, and investments.
+
+
+### 13.5.2.1 Rally Point  
+Symptomatic operates various safe houses, backup storage centers, and off-grid facilities to safeguard operations.  Employees and business partners should ask their manager or account representative about their assigned rally point to indicate that they have read the HIPPA policies and procedures.  
+
 
 ### 13.5.3 Reconstitution Phase
 
 This section discusses activities necessary for restoring Symptomatic operations at the original or new site. The goal is to restore full operations within 24 hours of a disaster or outage. When the hosted data center at the original or new site has been restored, Symptomatic operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
 
 1. Original or New Site Restoration
-   * Begin replication of new environment using automated and tested scripts, currently Chef and Salt. - Dev Ops
+   * Secure hazmat protocols (nuclear, bioterrorism, etc) - Facilities
+   * Secure food, supplies, and physical security - Facilities
+   * Secure power infrastructure and power redundancies - Facilities
+   * Re-initiate network connectivity (satellite, cellular, fiber, etc)
+   * Resync dev environment with network backups.
+   * Begin replication of new environment using automated and tested scripts (.i.e Chef and Salt). - Dev Ops
    * Test new environment using pre-written tests. - Web Services
    * Test logging, security, and alerting functionality. - Dev Ops
    * Deploy environment to production - Web Services
    * Assure systems are appropriately patched and up to date. - Dev Ops
    * Update DNS to new environment. - Dev Ops
+   
 2. Plan Deactivation
    * If the Symptomatic environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the Symptomatic Media Disposal Policy.
